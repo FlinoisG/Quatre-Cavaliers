@@ -1,3 +1,48 @@
 body{
-    background-color: antiquewhite;
+    background-color: #f7eecd;
+    overflow: hidden;
 }
+
+#title{
+    margin-top: 25px;
+}
+
+#conquest{
+    position: absolute;
+    left: 5px;
+    top: 70px;
+    animation: 3s ease-in-out infinite alternate ridingL;
+}
+
+#war{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    animation: 3s ease-in-out infinite alternate ridingR;
+}
+
+#pestilence{
+    
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    animation: 3s ease-in-out infinite alternate ridingL;
+}
+
+#death{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    animation: 3s ease-in-out infinite alternate ridingR;
+}
+
+@keyframes ridingL {
+    from {transform: rotate(-3deg);}
+    to {transform: rotate(3deg);}
+}
+
+@keyframes ridingR {
+    from {transform: rotate(3deg);}
+    to {transform: rotate(-3deg);}
+}
+  

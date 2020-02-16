@@ -9,7 +9,19 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Bare - Start Bootstrap Template</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="http://www.quatres-cavaliers.fr/public/img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://www.quatres-cavaliers.fr/public/img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="http://www.quatres-cavaliers.fr/public/img/favicon-16x16.png">
+  <link rel="manifest" href="http://www.quatres-cavaliers.fr/public/img/site.webmanifest">
+  <link rel="mask-icon" href="http://www.quatres-cavaliers.fr/public/img/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="http://www.quatres-cavaliers.fr/public/img/favicon.ico">
+  <meta name="apple-mobile-web-app-title" content="Quatre Cavaliers">
+  <meta name="application-name" content="Quatre Cavaliers">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-config" content="http://www.quatres-cavaliers.fr/public/img/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+
+  <title>Quatres Cavaliers</title>
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -19,42 +31,14 @@
 
 <body>
 
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-    <div class="container">
-      <a class="navbar-brand" href="#">Site de mon cul</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
   <!-- Page Content -->
   <div class="container">
-      <img src="img/title.png" style="width:1140px; height: auto;">
-    <img src="img/death.png" style="width:300px; height: auto;">
-    <img src="img/war.png" style="width:300px; height: auto;">
+      <img id="title" src="img/title.png">
+    <img id="death" src="img/death.png" style="width:300px; height: auto;">
+    <img id="war" src="img/war.png" style="width:300px; height: auto;">
     <br>
-    <img src="img/conquest.png" style="width:300px; height: auto;">
-    <img src="img/pestilence.png" style="width:300px; height: auto;">
+    <img id="conquest" src="img/conquest.png" style="width:300px; height: auto;">
+    <img id="pestilence" src="img/pestilence.png" style="width:300px; height: auto;">
   </div>
 
     
