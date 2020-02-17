@@ -1,39 +1,71 @@
 body{
     background-color: #f7eecd;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for IE and Edge */
+body {
+    -ms-overflow-style: none;
 }
 
 #title{
-    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
-#conquest{
-    position: absolute;
+.horsemen {
+    max-width:300px; height: auto;
+}
+
+.horsemen:hover {
+    animation: 0.25s pop;
+}
+
+#conquestbox{
+    position: fixed;
     left: 5px;
-    top: 70px;
-    animation: 3s ease-in-out infinite alternate ridingL;
+    top: -30px;
+    animation: 1s ease-in-out infinite alternate ridingL;
 }
 
-#war{
-    position: absolute;
+#warbox{
+    position: fixed;
     right: 5px;
-    top: 5px;
-    animation: 3s ease-in-out infinite alternate ridingR;
+    top: -30px;
+    animation: 1s ease-in-out infinite alternate ridingR;
 }
 
-#pestilence{
+#pestilencebox{
     
-    position: absolute;
-    bottom: 5px;
+    position: fixed;
+    bottom: -30px;
     left: 5px;
-    animation: 3s ease-in-out infinite alternate ridingL;
+    animation: 1s ease-in-out infinite alternate ridingL;
 }
 
-#death{
-    position: absolute;
-    bottom: 5px;
+#deathbox{
+    position: fixed;
+    bottom: -30px;
     right: 5px;
-    animation: 3s ease-in-out infinite alternate ridingR;
+    animation: 1s ease-in-out infinite alternate ridingR;
+}
+
+.screenshot{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transition: 0.3s;
+}
+
+.screenshot:hover{
+    filter: brightness(40%);
+    width: 100%;
 }
 
 @keyframes ridingL {
@@ -44,5 +76,11 @@ body{
 @keyframes ridingR {
     from {transform: rotate(3deg);}
     to {transform: rotate(-3deg);}
+}
+
+@keyframes pop {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.05);}
+    100% {transform: scale(1);}
 }
   

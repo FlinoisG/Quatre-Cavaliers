@@ -33,12 +33,18 @@
 
   <!-- Page Content -->
   <div class="container">
-      <img id="title" src="img/title.png">
-    <img id="death" src="img/death.png" style="width:300px; height: auto;">
-    <img id="war" src="img/war.png" style="width:300px; height: auto;">
-    <br>
-    <img id="conquest" src="img/conquest.png" style="width:300px; height: auto;">
-    <img id="pestilence" src="img/pestilence.png" style="width:300px; height: auto;">
+    <img id="title" src="img/title.png">
+
+    <div id="deathbox"><img id="death" alt="death horsemen" class="horsemen" src="img/death.png"></div>
+    <div id="warbox"><img id="war" alt="war horsemen" class="horsemen" src="img/war.png"></div>
+    <div id="conquestbox"><img id="conquest" alt="conquest horsemen" class="horsemen" src="img/conquest.png"></div>
+    <div id="pestilencebox"><img id="pestilence" alt="pestilence horsemen" class="horsemen" src="img/pestilence.png"></div>
+    <a href="http://www.quatres-cavaliers.fr/P5/public/"><img class="screenshot" src="img/P5screenshot.png" style="max-width:900px;"></a>
+    <a href="http://www.quatres-cavaliers.fr/P5/public/"><img class="screenshot" src="img/P5screenshot.png" style="max-width:900px;"></a>
+    <a href="http://www.quatres-cavaliers.fr/P5/public/"><img class="screenshot" src="img/P5screenshot.png" style="max-width:900px;"></a>
+    <a href="http://www.quatres-cavaliers.fr/P5/public/"><img class="screenshot" src="img/P5screenshot.png" style="max-width:900px;"></a>
+    <a href="http://www.quatres-cavaliers.fr/P5/public/"><img class="screenshot" src="img/P5screenshot.png" style="max-width:900px;"></a>
+    <a href="http://www.quatres-cavaliers.fr/P5/public/"><img class="screenshot" src="img/P5screenshot.png" style="max-width:900px;"></a>
   </div>
 
     
