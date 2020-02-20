@@ -32,21 +32,51 @@
 <body>
 
   <!-- Page Content -->
-  <div class="container">
-    <img id="title" src="img/title.png">
+  <div id="deathbox"><img id="death" alt="death horsemen" class="horsemen" src="img/death.png"></div>
+  <div id="warbox"><img id="war" alt="war horsemen" class="horsemen" src="img/war.png"></div>
+  <div id="conquestbox"><img id="conquest" alt="conquest horsemen" class="horsemen" src="img/conquest.png"></div>
+  <div id="pestilencebox"><img id="pestilence" alt="pestilence horsemen" class="horsemen" src="img/pestilence.png"></div>
 
-    <div id="deathbox"><img id="death" alt="death horsemen" class="horsemen" src="img/death.png"></div>
-    <div id="warbox"><img id="war" alt="war horsemen" class="horsemen" src="img/war.png"></div>
-    <div id="conquestbox"><img id="conquest" alt="conquest horsemen" class="horsemen" src="img/conquest.png"></div>
-    <div id="pestilencebox"><img id="pestilence" alt="pestilence horsemen" class="horsemen" src="img/pestilence.png"></div>
-    <a href="http://www.quatres-cavaliers.fr/P5/public/"><img class="screenshot" src="img/P5screenshot.png" style="max-width:900px;"></a>
-    <a href="http://www.quatres-cavaliers.fr/P5/public/"><img class="screenshot" src="img/P5screenshot.png" style="max-width:900px;"></a>
-    <a href="http://www.quatres-cavaliers.fr/P5/public/"><img class="screenshot" src="img/P5screenshot.png" style="max-width:900px;"></a>
-    <a href="http://www.quatres-cavaliers.fr/P5/public/"><img class="screenshot" src="img/P5screenshot.png" style="max-width:900px;"></a>
-    <a href="http://www.quatres-cavaliers.fr/P5/public/"><img class="screenshot" src="img/P5screenshot.png" style="max-width:900px;"></a>
-    <a href="http://www.quatres-cavaliers.fr/P5/public/"><img class="screenshot" src="img/P5screenshot.png" style="max-width:900px;"></a>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#page1">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#page2">Projets</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#page3">Contact</a>
+      </li>
+    </ul>
   </div>
+</nav>
 
+  <div id="page1" class="page">
+    <div class="titlebox"><img id="title" src="img/title.png"></div>
+    <div id="P1main" class="container">
+      <h1>Bonjour !</h1>
+      <p class="lead">Je suis Gauthier Flinois, développeur web junior.</br>Je fabrique des ensembles d'unités de consultation du World Wide Web reliées par des hyperliens.</p>
+    </div>
+  </div>
+  <div id="page2" class="page">
+    <img src="img/p2mask.png" class="mask">
+    <a class="screenshotbox" href="http://www.quatre-cavaliers.com/P4/public/?p=post.index" style="display: flex;"><img class="screenshot" src="img/screen02.png"></a>
+    <a class="screenshotbox" href="http://www.quatre-cavaliers.com/P5/public/" style="display: flex;"><img class="screenshot" src="img/screen01.png"></a>
+  </div>
+  <div id="page3" class="page">
+    <h1>Me contacter</h1>
+    <p>F</p>
+    <div id="contactList">
+
+    </div>
+  </div>
     
 
   <!-- Bootstrap core JavaScript -->
