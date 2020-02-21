@@ -81,18 +81,20 @@
 
     <a class="screenshotbox" href="http://p4.quatre-cavaliers.com/" >
       <p class="screenshottext">Si vous êtes un recruteur expérimenté, vous aurez deviné au permier coup d'oeil où j'ai fait mes études avec ce projet !
-      Un blog réalisé entièrement en PHP, JavaScript et Bootstrap, avec une interface administrateur qui permet de poster et administrer des article et dans une base de données.
+      Un blog réalisé entièrement en PHP, JavaScript et Bootstrap. Une interface administrateur qui permet de poster et administrer des article et dans une base de données.
       Pour chaque article, on peut y laisser un commentaires et signaler ceux d'utilisateurs indésirable pour que l'administrateur puisse les modérer.
       L'authentification administrateur se fait via une page de connection, le site compare le mot de passe haché et le nom d'utilisateur dans la base de données et 
       ouvre une session avec un cookie.
       </p>
       <img class="screenshot" src="img/screen02.png">
     </a>
+    <a class="fab fa-github fa-3x screenshotLink" href="https://github.com/FlinoisG/P4-Blog"></a>
     
     <a class="screenshotbox" href="http://p5.quatre-cavaliers.com/">
-      <p class="screenshottext">Ouibonsoir</p>
-      <img class="screenshot" src="img/screen01.png">
-    </a>
+    <p class="screenshottext">Ouibonsoir</p>
+    <img class="screenshot" src="img/screen01.png">
+  </a>
+  <a class="fab fa-github fa-3x screenshotLink" href="https://github.com/FlinoisG/P5-Game"></a>
 
   </div>
   <div id="page3" class="page">
