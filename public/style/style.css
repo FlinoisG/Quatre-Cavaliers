@@ -34,13 +34,14 @@ body::-webkit-scrollbar {
     display: flex;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 25px;
+    margin-top: 40px;
     
 }
 
 .horsemen {
     max-width:300px; 
     height: auto;
+    z-index: 999;
 }
 
 .horsemen:hover {
@@ -52,6 +53,7 @@ body::-webkit-scrollbar {
     left: 5px;
     top: -30px;
     animation: 1s ease-in-out infinite alternate ridingL;
+    z-index: 1;
 }
 
 #warbox{
@@ -59,6 +61,7 @@ body::-webkit-scrollbar {
     right: 5px;
     top: -30px;
     animation: 1s ease-in-out infinite alternate ridingR;
+    z-index: 1;
 }
 
 #pestilencebox{
@@ -66,6 +69,7 @@ body::-webkit-scrollbar {
     bottom: -20px;
     left: 5px;
     animation: 1s ease-in-out infinite alternate ridingL;
+    z-index: 1;
 }
 
 #deathbox{
@@ -73,20 +77,20 @@ body::-webkit-scrollbar {
     bottom: -35px;
     right: 5px;
     animation: 1s ease-in-out infinite alternate ridingR;
+    z-index: 1;
 }
 
 .screenshotbox{
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
+    text-decoration: none!important;
 }
 
 .screenshot{
-    
-    
     transition: 0.3s;
-    
     max-width: 1110px;
     width: 100%;
     height: auto;
@@ -94,8 +98,27 @@ body::-webkit-scrollbar {
     box-shadow: 0px 0px 35px black;
 }
 
-.screenshot:hover{
-    filter: brightness(40%);
+.screenshotbox:hover .screenshot{
+    filter: brightness(20%);
+}
+
+.screenshotbox:hover .screenshottext{
+    opacity: 1;
+}
+
+.screenshottext{
+    position: absolute;
+    top: 150px;
+    z-index: 99;
+    text-align: center;
+    color: white;
+    opacity: 0;
+    transition: 0.3s;
+    padding-left: 70px;
+    padding-right: 70px;
+    white-space: normal;
+    min-width: 0;
+    max-width: 1110px;
 }
 
 @keyframes ridingL {
@@ -122,6 +145,7 @@ body::-webkit-scrollbar {
 
 #page1{
     background-color: #f7eecd;
+    
 }
 
 #P1main{
@@ -134,78 +158,27 @@ body::-webkit-scrollbar {
     height: auto;
     background-color: #e7d6b0;
     padding: 0 0 150px 0;
+    box-shadow: 0px 0px 50px rgb(39, 26, 26);
 }
 
 #page3{
+    position: relative;
     background-color: #f7eecd;
+    z-index: 0;
+    text-align: center;
+    box-shadow: 0px 0px 50px rgb(39, 26, 26);
 }
 
-@media (max-width: 1450px) {
-    
-    .titlebox{
-        margin-top: 25vh;
-    } 
-
-    #P1main{
-        padding-top: 0;
-    }
-
-    #conquestbox{
-        position: absolute;
-    }
-    
-    #warbox{
-        position: absolute;
-    }
-    
-    #pestilencebox{
-        position: absolute;
-    }
-    
-    #deathbox{
-        position: absolute;
-    }
-
-    .mask{
-        z-index: 1;
-    }
- }
-
- @media (max-width: 890px) {
-
-    /*#title{
-        width: 550px;
-        
-    }*/
- }
-
- @media (max-width: 620px) , (max-height: 600px) {
-    
-    .horsemen {
-        max-width:150px; 
-        height: auto;
-    }
-    /*
-    #title{
-        width: 350px;
-    }*/
- }
-
- /*
- *Scrolling
- */
-
-
-a[ id= "page1" ]:target ~ #main article.panel {
--webkit-transform: translateY( 0px);
-transform: translateY( 0px );
+#page3>h1{
+    margin-top: 125px;
+    margin-bottom: 50px;
 }
 
-a[ id= "page2" ]:target ~ #main article.panel {
--webkit-transform: translateY( -500px );
-transform: translateY( -500px );
-}
-a[ id= "page3" ]:target ~ #main article.panel {
--webkit-transform: translateY( -1000px );
-transform: translateY( -1000px );
+
+#mapid { 
+    position:absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0px;
+    border-top: 3px solid #e7d6b0;
 }

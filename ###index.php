@@ -1,4 +1,4 @@
 <?php
-  header('Location: http://www.quatres-cavaliers.fr/public');
+  header('Location: http://www.quatre-cavaliers.com/public');
   exit();
 ?>
