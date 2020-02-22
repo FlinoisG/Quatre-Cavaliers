@@ -99,10 +99,11 @@
   </div>
   <div id="page3" class="page">
     <h1>Contactez-moi</h1>
+    <p>Je suis disponible </p>
     <a href="mailto:Flinoisg@4cavaliers.com">Flinoisg@4cavaliers.com</a>
     <div id="contactList">
-      <a class="fab fa-github fa-3x" href="https://github.com/flinoisg"></a>
-      <a class="fab fa-linkedin-in fa-3x" href="https://www.linkedin.com/in/gauthier-flinois-917951b7/"></a>
+      <a class="fab fa-github fa-3x contactIcon" href="https://github.com/flinoisg"></a>
+      <a class="fab fa-linkedin-in fa-3x contactIcon" href="https://www.linkedin.com/in/gauthier-flinois-917951b7/"></a>
     </div>
     <div id="mapid"></div>
   </div>
