@@ -84,15 +84,25 @@
       Un blog réalisé entièrement en PHP, JavaScript et Bootstrap. Une interface administrateur qui permet de poster et administrer des article et dans une base de données.
       Pour chaque article, on peut y laisser un commentaires et signaler ceux d'utilisateurs indésirable pour que l'administrateur puisse les modérer.
       L'authentification administrateur se fait via une page de connection, le site compare le mot de passe haché et le nom d'utilisateur dans la base de données et 
-      ouvre une session avec un cookie.
-      À part pour la partie administrateur, le blog est enièrement responsive et s'affichera correctement ssur téléphone et tablettes.
+      ouvre une session avec un cookie.</br></br>
+      À part pour la partie administrateur, le blog est enièrement responsive et s'affichera correctement sur téléphone et tablettes.
       </p>
       <img class="screenshot" src="img/screen02.png">
     </a>
     <a class="fab fa-github fa-3x screenshotLink" href="https://github.com/FlinoisG/P4-Blog"></a>
     
     <a class="screenshotbox" href="http://p5.quatre-cavaliers.com/">
-    <p class="screenshottext">Ouibonsoir</p>
+    <p class="screenshottext">Un browser game qui utilise une carte Leaflet comme support.</br></br>
+    Chaque mois, la partie commence et une carte des ressources est générée automatiquement grâce à un algorythme de Perlin.</br>
+    Les joueurs peuvent alors se connecter et construire leurs premiers batiment. Ils disposent d'un batiment de collecte 
+    de resources, et un batiment de production d'unités. La collecte de resource necéssite des ouvriers et prends du temps, la construction d'unitée coute
+    de la resource et prends aussi du temps.</br></br>
+    Le joueur peut aussi créer des soldats, qu'il peut utiliser soit défensivement soit offensivement en les envoyant attaquer la base d'un autre joueur
+    . Les unités attaquantes affronteront alors les unités en défense, et si elles parviennent à mener leur offensive à bien, le joueur qui les contrôlent
+    pourra alors capturer ou raser le batiment attaqué.</br></br>
+    À la fin du mois la partie se termine, les points sont décomptés en fonction des actions du joueur (batiment/unités construites, resources éxtraites, attaques réussis...)
+    et un classement des meilleur jour de cette partie et de tout les temps est mis à jour, puis automatiquement, la partie recommence.
+    </legend></p>
     <img class="screenshot" src="img/screen01.png">
   </a>
   <a class="fab fa-github fa-3x screenshotLink" href="https://github.com/FlinoisG/P5-Game"></a>
