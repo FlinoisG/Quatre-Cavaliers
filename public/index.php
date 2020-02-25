@@ -57,7 +57,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item">
-        <a class="nav-link" href="#page1">Home</a>
+        <a class="nav-link" href="#page1">Accueil</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#page2">Projets</a>
@@ -80,11 +80,12 @@
     <img src="img/p2mask.png" class="mask">
 
     <a class="screenshotbox" href="http://p4.quatre-cavaliers.com/" >
-      <p class="screenshottext">Si vous êtes un recruteur expérimenté, vous aurez deviné au permier coup d'oeil où j'ai fait mes études avec ce projet !
+      <p class="screenshottext">Si vous êtes un recruteur expérimenté, vous aurez deviné au permier coup d'oeil où je me suis formé avec ce projet !
       Un blog réalisé entièrement en PHP, JavaScript et Bootstrap. Une interface administrateur qui permet de poster et administrer des article et dans une base de données.
       Pour chaque article, on peut y laisser un commentaires et signaler ceux d'utilisateurs indésirable pour que l'administrateur puisse les modérer.
       L'authentification administrateur se fait via une page de connection, le site compare le mot de passe haché et le nom d'utilisateur dans la base de données et 
       ouvre une session avec un cookie.
+      À part pour la partie administrateur, le blog est enièrement responsive et s'affichera correctement ssur téléphone et tablettes.
       </p>
       <img class="screenshot" src="img/screen02.png">
     </a>
@@ -99,11 +100,11 @@
   </div>
   <div id="page3" class="page">
     <h1>Contactez-moi</h1>
-    <p>Je suis disponible </p>
-    <a href="mailto:Flinoisg@4cavaliers.com">Flinoisg@4cavaliers.com</a>
+    <p>Je suis actuellement à la recherche d'un emplois !</p>
     <div id="contactList">
-      <a class="fab fa-github fa-3x contactIcon" href="https://github.com/flinoisg"></a>
-      <a class="fab fa-linkedin-in fa-3x contactIcon" href="https://www.linkedin.com/in/gauthier-flinois-917951b7/"></a>
+      <div class="contactIconBox"><a class="fas fa-envelope fa-5x contactIcon" href="mailto:Flinoisg@4cavaliers.com"></a></div>
+      <div class="contactIconBox"><a class="fab fa-github fa-5x contactIcon" href="https://github.com/flinoisg"></a></div>
+      <div class="contactIconBox"><a class="fab fa-linkedin-in fa-5x contactIcon" href="https://www.linkedin.com/in/gauthier-flinois-917951b7/"></a></div>
     </div>
     <div id="mapid"></div>
   </div>
