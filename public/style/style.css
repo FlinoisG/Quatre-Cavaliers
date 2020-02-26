@@ -18,8 +18,15 @@ body::-webkit-scrollbar {
     background-color: rgba(0, 0, 0, 0)!important;
     position: fixed;
     top: 0;
-    left: calc(50vw - 113px);
+    left: calc(50vw - 123.1095px);
     z-index: 2;
+}
+
+.nav-separator{
+    color: rgba(0,0,0,.5);
+    padding: .5rem 1rem;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 #title{

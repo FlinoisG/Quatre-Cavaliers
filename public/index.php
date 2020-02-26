@@ -59,9 +59,11 @@
       <li class="nav-item">
         <a class="nav-link" href="#page1">Accueil</a>
       </li>
+      <p class="nav-separator">|</p>
       <li class="nav-item">
         <a class="nav-link" href="#page2">Projets</a>
       </li>
+      <p class="nav-separator">|</p>
       <li class="nav-item">
         <a class="nav-link" href="#page3">Contact</a>
       </li>
