@@ -59,11 +59,11 @@
       <li class="nav-item">
         <a class="nav-link" href="#page1">Accueil</a>
       </li>
-      <p class="nav-separator">|</p>
+      <li class="nav-separator">|</li>
       <li class="nav-item">
         <a class="nav-link" href="#page2">Projets</a>
       </li>
-      <p class="nav-separator">|</p>
+      <li class="nav-separator">|</li>
       <li class="nav-item">
         <a class="nav-link" href="#page3">Contact</a>
       </li>
@@ -72,47 +72,46 @@
 </nav>
 
   <div id="page1" class="page">
-    <div class="titlebox"><img id="title" src="img/title.png"></div>
+    <div class="titlebox"><img id="title" alt="Titre : Quatre Cavaliers" src="img/title.png"></div>
     <div id="P1main" class="container">
       <h1>Bonjour !</h1>
-      <p class="lead">Je suis Gauthier Flinois, développeur web junior.</br>Je fabrique des ensembles d'unités de consultation du World Wide Web reliées par des hyperliens.</p>
+      <p class="lead">Je suis Gauthier Flinois, développeur web junior.<br>Je fabrique des ensembles d'unités de consultation du World Wide Web reliées par des hyperliens.</p>
     </div>
   </div>
   <div id="page2" class="page">
-    <img src="img/p2mask.png" class="mask">
+    <img src="img/p2mask.png" alt="Image-masque" class="mask">
 
     <a class="screenshotbox" href="http://p4.quatre-cavaliers.com/" >
-      <p class="screenshottext">Si vous êtes un recruteur expérimenté, vous aurez deviné au permier coup d'oeil où je me suis formé avec ce projet !
+      <p class="screenshottext">Si vous êtes un recruteur expérimenté, vous aurez deviné au premier coup d'oeil où je me suis formé avec ce projet !
       Un blog réalisé entièrement en PHP, JavaScript et Bootstrap. Une interface administrateur qui permet de poster et administrer des article et dans une base de données.
-      Pour chaque article, on peut y laisser un commentaires et signaler ceux d'utilisateurs indésirable pour que l'administrateur puisse les modérer.
-      L'authentification administrateur se fait via une page de connection, le site compare le mot de passe haché et le nom d'utilisateur dans la base de données et 
-      ouvre une session avec un cookie.</br></br>
-      À part pour la partie administrateur, le blog est enièrement responsive et s'affichera correctement sur téléphone et tablettes.
+      Pour chaque article, on peut y laisser un commentaire et signaler ceux d'utilisateurs indésirable pour que l'administrateur puisse les modérer.
+      L'authentification administrateur se fait via une page de connexion, le site compare le mot de passe haché et le nom d'utilisateur dans la base de données et 
+      ouvre une session avec un cookie.<br><br>
+      À part pour la partie administrateur, le blog est entièrement responsive et s'affichera correctement sur téléphone et tablettes.
       </p>
-      <img class="screenshot" src="img/screen02.png">
+      <img class="screenshot" alt="Capture d'écran d'un blog" src="img/screen02.png">
     </a>
     <a class="fab fa-github fa-3x screenshotLink" href="https://github.com/FlinoisG/P4-Blog"></a>
     
     <a class="screenshotbox" href="http://p5.quatre-cavaliers.com/">
-    <p class="screenshottext">Un browser game qui utilise une carte Leaflet comme support.</br></br>
-    Chaque mois, la partie commence et une carte des ressources est générée automatiquement grâce à un algorythme de Perlin.</br>
-    Les joueurs peuvent alors se connecter et construire leurs premiers batiment. Ils disposent d'un batiment de collecte 
-    de resources, et un batiment de production d'unités. La collecte de resource necéssite des ouvriers et prends du temps, la construction d'unitée coute
-    de la resource et prends aussi du temps.</br></br>
+    <p class="screenshottext">Un Browser Game qui utilise une carte Leaflet comme support.<br><br>
+    Chaque mois, la partie commence et une carte des ressources est générée automatiquement grâce à un algorithme de Perlin.<br>
+    Les joueurs peuvent alors se connecter et construire leurs premiers bâtiment. Ils disposent d'un bâtiment de collecte 
+    de ressources, et un bâtiment de production d'unités. La collecte de ressource nécessite des ouvriers et prends du temps, la construction d'unité coûte
+    de la ressource et prends aussi du temps.<br><br>
     Le joueur peut aussi créer des soldats, qu'il peut utiliser soit défensivement soit offensivement en les envoyant attaquer la base d'un autre joueur
-    . Les unités attaquantes affronteront alors les unités en défense, et si elles parviennent à mener leur offensive à bien, le joueur qui les contrôlent
-    pourra alors capturer ou raser le batiment attaqué.</br></br>
-    À la fin du mois la partie se termine, les points sont décomptés en fonction des actions du joueur (batiment/unités construites, resources éxtraites, attaques réussis...)
-    et un classement des meilleur jour de cette partie et de tout les temps est mis à jour, puis automatiquement, la partie recommence.
-    </legend></p>
-    <img class="screenshot" src="img/screen01.png">
+    . Les unités attaquantes affronteront alors les unités en défense, et si elles parviennent à mener leur offensive à bien, le joueur qui les contrôle
+    pourra alors capturer ou raser le bâtiment attaqué.<br><br>
+    À la fin du mois la partie se termine, les points sont décomptés en fonction des actions du joueur (bâtiment / unités construites, ressources extraites, attaques réussis...)
+    et un classement des meilleur jour de cette partie et de tous les temps est mis à jour, puis automatiquement, la partie recommence.</p>
+    <img class="screenshot" alt="Capture d'écran de mon jeu" src="img/screen01.png">
   </a>
   <a class="fab fa-github fa-3x screenshotLink" href="https://github.com/FlinoisG/P5-Game"></a>
 
   </div>
   <div id="page3" class="page">
     <h1>Contactez-moi</h1>
-    <p>Je suis actuellement à la recherche d'un emplois !</p>
+    <p>Je suis actuellement à la recherche d'un emploi !</p>
     <div id="contactList">
       <div class="contactIconBox"><a class="fas fa-envelope fa-5x contactIcon" href="mailto:Flinoisg@4cavaliers.com"></a></div>
       <div class="contactIconBox"><a class="fab fa-github fa-5x contactIcon" href="https://github.com/flinoisg"></a></div>

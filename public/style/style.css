@@ -105,7 +105,7 @@ body::-webkit-scrollbar {
 }
 
 .screenshotbox:hover .screenshot{
-    filter: brightness(20%);
+    filter: brightness(10%);
 }
 
 .screenshotbox:hover .screenshottext{
